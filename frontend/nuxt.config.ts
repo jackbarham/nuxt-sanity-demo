@@ -19,9 +19,6 @@ export default defineNuxtConfig({
       tailwindcss(),
     ],
   },
-  alias: {
-    '@sanity/visual-editing': fileURLToPath(new URL('./mocks/visual-editing.js', import.meta.url)),
-  },
   runtimeConfig: {
     public: {
       appTitle: 'Nuxt & Sanity Demo'
